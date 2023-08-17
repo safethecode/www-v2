@@ -6,9 +6,9 @@ import Providers from './providers';
 import '@/styles/globalStyle.css';
 
 export const metadata = constructMetadata({
-  title: 'VE_',
-  description: 'I Love VE ❤️',
-  keywords: ['VE', 'I Love VE'],
+  title: 'Aaron Son — For a better UX and DX',
+  description: 'I am a software engineer who loves to build things.',
+  keywords: ['Aaron Son', 'safethecode', '손지민', '프론트엔드'],
 });
 
 export default function RootLayout({
