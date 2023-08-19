@@ -137,14 +137,14 @@ globalStyle('*, *::before, *::after', {
 
 /**
  * this is reset css for html and body elements
- * '--font-inter' is a custom variable applied in the globalFontsStyle file.
+ * '--font-work-sans' is a custom variable applied in the globalFontsStyle file.
  * @file src/styles/globalFontsStyle.css.ts
  */
 globalStyle('html, body', {
   width: '100%',
   height: '100%',
   fontFamily: `
-    var(--font-inter),
+    var(--font-work-sans),
     -apple-system,
     BlinkMacSystemFont,
     Segoe UI,
