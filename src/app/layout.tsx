@@ -1,5 +1,6 @@
 import { constructMetadata } from '@/utils/next';
 import { WorkSansFontStyle } from '@/styles/globalFontsStyle';
+import { background } from '@/styles/commonStyle.css';
 
 import Providers from './providers';
 
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={WorkSansFontStyle.variable}>
         <Providers>{children}</Providers>
+        <div className={background} />
       </body>
     </html>
   );
