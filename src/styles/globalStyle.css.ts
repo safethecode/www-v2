@@ -141,6 +141,7 @@ globalStyle('*, *::before, *::after', {
  * @file src/styles/globalFontsStyle.css.ts
  */
 globalStyle('html, body', {
+  position: 'relative',
   width: '100%',
   height: '100%',
   fontFamily: `
@@ -157,5 +158,5 @@ globalStyle('html, body', {
   margin: 0,
   padding: 0,
   WebkitFontSmoothing: 'antialiased',
-  backgroundColor: 'hsl(0 0% 8.5%)',
+  backgroundColor: '#000000CC',
 });
