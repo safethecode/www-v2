@@ -143,7 +143,7 @@ globalStyle('*, *::before, *::after', {
 globalStyle('html, body', {
   position: 'relative',
   width: '100%',
-  height: '100%',
+  height: '100vh',
   fontFamily: `
     var(--font-work-sans),
     -apple-system,
