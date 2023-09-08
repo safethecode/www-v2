@@ -14,9 +14,7 @@ export const Profile = ({ imageUrl, user }: ProfileProps) => {
   return (
     <a
       className={wrapper}
-      href={
-        user ? `https://github.com/${user.socialId}` : window.location.origin
-      }
+      href={user && `https://github.com/${user.socialId}`}
       target="_blank"
       rel="noreferrer"
     >
