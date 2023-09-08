@@ -135,6 +135,11 @@ globalStyle('*, *::before, *::after', {
   scrollbarWidth: 'none',
 });
 
+globalStyle('main', {
+  position: 'relative',
+  zIndex: 999,
+});
+
 /**
  * this is reset css for html and body elements
  * '--font-work-sans' is a custom variable applied in the globalFontsStyle file.
@@ -158,5 +163,5 @@ globalStyle('html, body', {
   margin: 0,
   padding: 0,
   WebkitFontSmoothing: 'antialiased',
-  backgroundColor: '#000000CC',
+  backgroundColor: '#000000',
 });
