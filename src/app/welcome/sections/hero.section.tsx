@@ -45,7 +45,7 @@ export const HeroSection = () => {
             <img
               src="/_static/icon/icon-robot.png"
               alt="robot_icon"
-              width={24}
+              width={48}
             />
             User Experience
           </span>
@@ -55,7 +55,7 @@ export const HeroSection = () => {
           <img
             src="/_static/icon/icon-smiling-face-with-sunglasses.png"
             alt="robot_icon"
-            width={24}
+            width={48}
           />
         </h1>
       </div>

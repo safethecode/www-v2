@@ -10,7 +10,7 @@ export const TrustSection = () => {
             <img
               src="/_static/icon/icon-face-in-clouds.png"
               alt="robot_icon"
-              width={32}
+              width={48}
             />
             Many teams
           </span>
